@@ -3,15 +3,15 @@ This is a repository for documents and issues related to the development of inte
 
 List the name, URL and scope description of your food related ontology here. 
 
-#FOBI: Food-Biomarker Ontology
+## FOBI: Food-Biomarker Ontology
 
-#ONS: Ontology for Nutritional Studies
+## ONS: Ontology for Nutritional Studies
 
-#FIDEO: Food Interactions with Drugs Evidence Ontology
+## FIDEO: Food Interactions with Drugs Evidence Ontology
 
-#FoodOn: Food ontology
+## FoodOn: Food ontology
 
-#AHSO: Animal Health Surveillance Ontology 
+## AHSO: Animal Health Surveillance Ontology 
 (<a href="https://www.researchgate.net/project/AHSO-Animal-Health-Surveillance-Ontology">paper</a>)
  
 CDNO: Crop Nutritional Data Ontology (possible upcoming participant)
