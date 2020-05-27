@@ -1,0 +1,83 @@
+Ontology ID	Parent Class	label	Definition	Definition Source	English Synonym	Italian Synonym	French Synonym	see also	hasDbXref	Comments	Term Editor	type	curation status	Discussion on Improvements
+ID	SC % SPLIT=|	AL rdfs:label@en	AL IAO:0000115@en	A IAO:0000119 SPLIT=|	AL oboInOwl:hasExactSynonym@en SPLIT=|	AL oboInOwl:hasExactSynonym@it SPLIT=|	AL oboInOwl:hasExactSynonym@fr SPLIT=|	A rdfs:seeAlso SPLIT=|		AL rdfs:comment@en	A IAO:0000117 SPLIT=|	TYPE	AI IAO:0000114	
+UBERON:0000463		organism substance	Material anatomical entity in a gaseous, liquid, semisolid or solid state; produced by anatomical structures or derived from inhaled and ingested substances that have been modified by anatomical structures as they pass through the body. [database_cross_reference: http://orcid.org/0000-0001-9114-8737]											
+UBERON:0012112	organism substance	ingested food	A substance that is consumed by the organism for food.											
+RO:0002470		eats	'consumer of food' eats food											
+GO:0008150		biological process												
+GO:0032501	biological process	multicellular organismal process												
+GO:0007586	multicellular organismal process	digestion	The whole of the physical, chemical, and biochemical processes carried out by multicellular organisms to break down ingested nutrients into components that may be easily absorbed and directed into metabolism.											
+ONS:0000101	biological process	Food digestion	Digestion is the breakdown of large insoluble food molecules into small water-soluble food molecules. The breakdown is both mechanical and chemical (enzymatic digestion). During digestion, food components are released from the food matrix and become bioaccessible. Bioaccessible molecules can be absorbed.											
+IAO:0000100		data set	A data item that is an aggregate of other data items of the same type that have something in common. Averages and distributions can be determined for data sets.											
+IAO:0000104		plan specification	A directive information entity with action specifications and objective specifications as parts that, when concretized, is realized in a process in which the bearer tries to achieve the objectives by taking the actions specified.											
+OBI:0000272	plan specification	protocol	A plan specification which has sufficient level of detail and quantitative information to communicate it between investigation agents, so that different investigation agents will reliably be able to independently reproduce the process.											
+IAO:0000115		definition										owl:AnnotationProperty		
+IAO:0000119		definition source										owl:AnnotationProperty		
+IAO:0000117		term editor										owl:AnnotationProperty		
+														
+ONS:0000094		dietary pattern	The quantity, variety, or combination of different foods and beverage in a diet and the frequency with which they are habitually consumed.	https://www.sciencedirect.com/topics/medicine-and-dentistry/dietary-pattern	eating pattern									Replaces EFO:diet (EFO:0002755)
+TERM:0002	dietary pattern	  timing of food intake	fasting, meal frequency, daily, episodic - contributes to dietary regime (protocol)											
+TERM:0003	  timing of food intake	    fasting	Going without food or drink for a certain period of time.	PMID: 30897855							Leigh Carmody			
+TERM:0004	  timing of food intake	    fasting schedule (protocol)	(i.e. fasting for 16 hrs per 24 hrs; duration for 3 months)											
+TERM:0005	  timing of food intake	    episodic food intake												
+TERM:0006	  timing of food intake	    intermittent fasting	Intermittent fasting is a form of time restricted eating, typically 16 h fasting and 8 h eating.	PMID: 30897855							Leigh Carmody			
+TERM:0009	dietary pattern	  diet by consumer												
+TERM:0010	  diet by consumer	    carnivore diet	only includes meat, fish, and other animal foods like eggs and certain dairy products											
+TERM:0011	  diet by consumer	    herbivore diet	(animal which only eats plants)											
+TERM:0012	dietary pattern	  diet by type of food												
+TERM:0013	  diet by type of food	    diet by food organism												
+TERM:0014	    diet by food organism	      vegetarian diet							gs1:DietTypeCode-VEGETARIAN					
+TERM:0015	    diet by food organism	      pescetarian diet												
+TERM:0016	    diet by food organism	      vegan diet							gs1:DietTypeCode-VEGAN					
+TERM:0017	    diet by food organism	      non-beef diet							gs1:DietTypeCode-WITHOUT_BEEF					
+TERM:0018	    diet by food organism	      non-pork diet 	not ('has ingredient' some 'swine food product'))						gs1:DietTypeCode-WITHOUT_PORK					
+TERM:0019	    diet by food organism	      infant breast milk diet	(Fulfills a breast milk infant diet)											
+TERM:0020	    diet by food organism	      formula milk diet												
+TERM:0021	    diet by food organism	      lacto-vegetarian diet												
+TERM:0022	    diet by food organism	      ovo-vegetarian diet												
+TERM:0023	    diet by food organism	      lacto-ovo vegetarian diet												
+TERM:0024	    diet by food organism	      semi-vegetarian diet	primarily a plant-based diet but includes meat, dairy, eggs, poultry and fish on occasion or in small quantities		flexitarian diet									
+TERM:0025	  diet by type of food	    texture modified diet												
+TERM:0026	dietary pattern	  diet by agriculture treatment	A diet which involves food produced under certain agricultural conditions.											
+TERM:0027	  diet by agriculture treatment	    organic diet	A diet consisting of organically produced food						gs1:DietTypeCode-ORGANIC					
+TERM:0028	dietary pattern	  diet by nutritional composition												
+TERM:0029	  diet by nutritional composition	    ketogenic diet	"The ketogenic diet is a high-fat, low-carbohydrate, adequate-protein diet that mimics a fasting state, resulting in the substitution of ketone bodies as a source of energy. The ketogenic diet can be used to reduce recurrent epileptic seizures in individuals with intractable epilepsy. Intractable epilepsy is defined as epilepsy that failed to respond to three or more antiepileptic drugs.
+A high-fat, adequate-protein, low-carbohydrate diet. It is primarily used in medicine to treat difficult-to-control epilepsy in children"	PMID:23419562, PMID:27759811, PMID:28701250	Modified Atkins diet						Leigh Carmody			(replaces EFO:0009371)
+TERM:0030	  diet by nutritional composition	    DASH diet	Dietary Approaches to Stop Hypertension (DASH) trial, which demonstrated that consuming a diet rich in fruits, vegetables, and low-fat dairy products and reduced in saturated fat and cholesterol	PMID: 29141784							Leigh Carmody			
+TERM:0031	  diet by nutritional composition	    Meditteranean diet	The moderate-fat, restricted-calorie, Mediterranean diet was rich in vegetables and low in red meat, with poultry and fish replacing beef and lamb.	PMID:18635428							Leigh Carmody			
+TERM:0032	  diet by nutritional composition	    high-carbohydrate diet	A diet which provides > 60% of total dietary energy from carbohydrates.  It consists predominantly of high glycemic carbohydrates have detrimental metabolic effects											
+TERM:0033	  diet by nutritional composition	    low-carbohydrate, high-protien, high fat diet		PMID:18635428	Low carbohydrate diet						Leigh Carmody			The low-carbohydrate, non–restricted-calorie diet aimed to provide 20 g of carbohydrates per day for the 2-month induction phase and immediately after religious holidays, with a gradual increase to a maximum of 120 g per day to maintain the weight loss.
+TERM:0034	  diet by nutritional composition	    high fat diet	A diet involving the a larger proportion of fat than normal.											(replaces EFO high fat diet)
+TERM:0035	  diet by nutritional composition	    low fat diet	A restricted-energy diet with less than 30 % of energy from fat.	PMID:23651522							Leigh Carmody			(replaces EFO low fat diet)
+TERM:0036	  diet by nutritional composition	    glutten free	A diet which minimises or eliminates the consumption of glutten.						gs1:DietTypeCode-FREE_FROM_GLUTEN					
+TERM:0037	dietary pattern	  proscribed diet	An eating pattern that excludes a given diet.											
+TERM:0038	  dietary pattern	  prescribed diet	A diet assigned as a dietary pattern objective to an individual or group.											
+TERM:0039	"  dietary pattern|
+protocol"	dietary regimen	A set of restrictions on food type ingestion and/or timing of food ingestion. [Notes: Protocol - dosing regime (Bjorn) schedule x substance. diet as protocol]											
+TERM:0040	  prescribed diet	    self-prescribed diet	A diet that an individual has chosen as a dietary pattern objective.											
+TERM:0041	  prescribed diet	    research prescribed diet	A died prescribed to a group in a research study.											
+ONS:0000081	    research prescribed diet	      study intervention diet	ONS: Intervention diet The diet administered during an intervention study. It usually comprises the adoption of a certain nutritional intervention, intended as the prescription of consuming or not consuming certain food, and follows a precise study design. Intervention studies usually compare at least two subgroups of a population, one control group receiving a null nutritional intervention, and one or more test groups receiving the intervention											
+TERM:0042	    research prescribed diet	"       study null nutritional diet
+"	"A dietairy pattern adhered to by a study control group.
+(possibly a placebo)."		null nutritional diet									
+ONS:0000082	  prescribed diet	    medically prescribed diet	ONS: Prescribed Diet A diet prescribed by a physician or nutritionist to meet specific nutritional needs of a person. ~= dietetic diet?		diet therapy | clinical treatment protocol									
+TERM:0043	    medically prescribed diet	      dietetic diet	A diet that is specially prepared or processed for an individual on restrictive diets.						gs1:DietTypeCode-DIETETIC					
+TERM:0044	    medically prescribed diet	      coeliac diet	A diet designed to reduce the symptoms of Coeliac disease which is caused by a reaction to gliadin (a gluten protein found in wheat) and similar proteins found in other crops.						gs1:DietTypeCode-COELIAC					
+TERM:0045	  prescribed diet	    performance diet  	A diet which has an athletic performance objective											
+TERM:0046	  prescribed diet	    ethnographic diet	"A cultural or religious eating pattern
+
+Average of individual diets. cultural diet pertains to a culture historically located in a [geographic area]"											
+TERM:0047	    ethnographic diet	    halal diet	A diet consisting of halal approved food						gs1:DietTypeCode-HALAL					
+TERM:0048	    ethnographic diet	    kosher diet	A diet consisting of kosher approved food						gs1:DietTypeCode-KOSHER					
+TERM:0049	dietary pattern	  descriptive diet												
+TERM:0050	  descriptive diet	    self-reported diet	An ingested food data set which is subjectively recorded or recalled by an individual consuming the food											
+TERM:0051	  descriptive diet	    objectively reported diet	An ingested food data set which is observed by a researcher to have been consumed by a subject organism or population of organisms.											
+TERM:0052	  descriptive diet	    ingested food data set	A dataset which contains a list of foods that an organism has ingested over some period of time											
+TERM:0054	    ingested food data set	    NCI usual diet	A long-term average daily intake of nutrients and/or foods calculated according to a National Cancer Institute statistical model.	https://epi.grants.cancer.gov/diet/usualintakes/										
+TERM:0053	  descriptive diet|data set	    ingested food log	An ingested food data set of food consumption events detailing food ingested and the time of ingestion.							This may include the mass or quantity of a food item, and other details such as its preparation process.'				
+TERM:0007	  descriptive diet	    daily food intake	An ingested food data set for a given day											
+TERM:0008 	  descriptive diet	    daily average nutritional intake	A dataset containing the averaged daily intake of each of a variety of nutrients for an individual or organism population 											
+ONS:0000083	  descriptive diet	    population usual diet	ONS: Usual Diet The regular course of eating and drinking adopted by a population in a certain geographical area, or in a certain cultural setting, or following certain common eating behaviour. It is also intended as the diet a person would follow without further prescription or indications, i.e. vegetarian diet											improve label of class
+ONS:0000080	  descriptive diet|  individual dietary pattern	    individual usual diet	ONS:Diet The regular course of eating and drinking adopted by a person.	https://github.com/enpadasi/Ontology-for-Nutritional-Studies										
+TERM:0055	dietary pattern	  individual dietary pattern	An eating pattern pertaining to a single organism (an instance of organism). This can be used descriptively or prescriptively.											
+TERM:0056	dietary pattern	  population dietary pattern	An eating pattern pertaining to a population or sub-population of organism.  This can be used descriptively or prescriptively (e.g. pregnant women should not drink more than 2 glasses of wine a day).											
+														
