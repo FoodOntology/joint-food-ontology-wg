@@ -496,6 +496,7 @@ A high-fat, adequate-protein, low-carbohydrate diet. It is primarily used in med
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/TERM_0033">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TERM_0028"/>
+        <obo:IAO_0000115 xml:lang="en">???</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Leigh Carmody</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:18635428</obo:IAO_0000119>
         <oboInOwl:hasExactSynonym xml:lang="en">Low carbohydrate diet</oboInOwl:hasExactSynonym>
@@ -746,7 +747,8 @@ Average of individual diets. cultural diet pertains to a culture historically lo
     <!-- http://purl.obolibrary.org/obo/UBERON_0000463 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000463">
-        <obo:IAO_0000115 xml:lang="en">Material anatomical entity in a gaseous, liquid, semisolid or solid state; produced by anatomical structures or derived from inhaled and ingested substances that have been modified by anatomical structures as they pass through the body. [database_cross_reference: http://orcid.org/0000-0001-9114-8737]</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Material anatomical entity in a gaseous, liquid, semisolid or solid state; produced by anatomical structures or derived from inhaled and ingested substances that have been modified by anatomical structures as they pass through the body.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://orcid.org/0000-0001-9114-8737</obo:IAO_0000117>
         <rdfs:label xml:lang="en">organism substance</rdfs:label>
     </owl:Class>
     
