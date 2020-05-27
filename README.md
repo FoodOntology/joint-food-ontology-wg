@@ -5,7 +5,11 @@ List the name, URL and scope description of your food related ontology here.
 
 ## FOBI: Food-Biomarker Ontology
 
-## ONS: Ontology for Nutritional Studies
+## [ONS](https://github.com/enpadasi/Ontology-for-Nutritional-Studies): Ontology for Nutritional Studies
+ONS was developed under the ENPADASI European project, to assist the standardized description of (human) nutritional studies. 
+As such, it includes and covers classes and relations that are commonly encountered while conducting, storing, harmonizing, integrating, describing and querying for nutritional studies. ONS main objective and long-term goal, is to represent a comprehensive resource for the description of concepts in the broader human nutrition domain, representing a solid and extensible formal ontology framework, where integration of new information can be easily achieved by the addition of extra modules. 
+
+ONS membership of the Open Biological and Biomedical Ontology Foundry (OBOFoundry) is pending approval. 
 
 ## FIDEO: Food Interactions with Drugs Evidence Ontology
 
