@@ -55,6 +55,12 @@
     
 
 
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasDbXref -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+    
+
+
     <!-- http://www.geneontology.org/formats/oboInOwl#hasExactSynonym -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
@@ -413,6 +419,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/TERM_0014">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TERM_0013"/>
         <obo:IAO_0000115 xml:lang="en">A diet which focuses almost exclusively on the consumption of plants, fungi and/or lichen.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.gs1.org/voc/DietTypeCode-VEGETARIAN</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="en">vegetarian diet</rdfs:label>
     </owl:Class>
     
@@ -432,6 +439,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/TERM_0016">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TERM_0013"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.gs1.org/voc/DietTypeCode-VEGAN</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="en">vegan diet</rdfs:label>
     </owl:Class>
     
@@ -442,6 +450,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/TERM_0017">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TERM_0013"/>
         <obo:IAO_0000115 xml:lang="en">A diet that excludes food containing beef food products.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.gs1.org/voc/DietTypeCode-WITHOUT_BEEF</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="en">non-beef diet</rdfs:label>
     </owl:Class>
     
@@ -462,6 +471,7 @@
             </owl:Class>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A diet that excludes food containing swine food products.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.gs1.org/voc/DietTypeCode-WITHOUT_PORK</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="en">non-pork diet</rdfs:label>
     </owl:Class>
     
@@ -548,6 +558,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/TERM_0027">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TERM_0026"/>
         <obo:IAO_0000115 xml:lang="en">A diet consisting of organically produced food</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.gs1.org/voc/DietTypeCode-ORGANIC</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="en">organic diet</rdfs:label>
     </owl:Class>
     
@@ -651,6 +662,7 @@ A high-fat, adequate-protein, low-carbohydrate diet. It is primarily used in med
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/TERM_0036">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TERM_0028"/>
         <obo:IAO_0000115 xml:lang="en">A diet which minimises or eliminates the consumption of glutten.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.gs1.org/voc/DietTypeCode-FREE_FROM_GLUTEN</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="en">glutten free</rdfs:label>
     </owl:Class>
     
@@ -725,6 +737,7 @@ A high-fat, adequate-protein, low-carbohydrate diet. It is primarily used in med
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/TERM_0043">
         <rdfs:subClassOf rdf:resource="ONS:0000082"/>
         <obo:IAO_0000115 xml:lang="en">A diet that is specially prepared or processed for an individual on restrictive diets.  RESERVE THIS TERM JUST FOR HUMANS?</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.gs1.org/voc/DietTypeCode-DIETETIC</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="en">dietetic diet</rdfs:label>
     </owl:Class>
     
@@ -735,6 +748,7 @@ A high-fat, adequate-protein, low-carbohydrate diet. It is primarily used in med
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/TERM_0044">
         <rdfs:subClassOf rdf:resource="ONS:0000082"/>
         <obo:IAO_0000115 xml:lang="en">A diet designed to reduce the symptoms of Coeliac disease which is caused by a reaction to gliadin (a gluten protein found in wheat) and similar proteins found in other crops.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.gs1.org/voc/DietTypeCode-COELIAC</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="en">coeliac diet</rdfs:label>
     </owl:Class>
     
@@ -765,6 +779,7 @@ A high-fat, adequate-protein, low-carbohydrate diet. It is primarily used in med
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/TERM_0047">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TERM_0046"/>
         <obo:IAO_0000115 xml:lang="en">A diet consisting of halal approved food.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.gs1.org/voc/DietTypeCode-HALAL</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="en">halal diet</rdfs:label>
     </owl:Class>
     
@@ -775,6 +790,7 @@ A high-fat, adequate-protein, low-carbohydrate diet. It is primarily used in med
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/TERM_0048">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TERM_0046"/>
         <obo:IAO_0000115 xml:lang="en">A diet consisting of kosher approved food.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.gs1.org/voc/DietTypeCode-KOSHER</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="en">kosher diet</rdfs:label>
     </owl:Class>
     

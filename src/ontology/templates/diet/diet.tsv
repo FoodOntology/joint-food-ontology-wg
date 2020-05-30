@@ -1,5 +1,5 @@
 Ontology ID	parent class	label	definition	definition source	example of usage	diet inclusions	diet exclusions	English Synonym	Italian Synonym	French Synonym	see also	hasDbXref	Comments	Term Editor	type	curation status	Discussion on Improvements
-ID	SC % SPLIT=|	AL rdfs:label@en	AL IAO:0000115@en	A IAO:0000119 SPLIT=|	AL IAO:0000112@en SPLIT=|	C eats some % SPLIT=|	C not (eats some %) SPLIT=|	AL oboInOwl:hasExactSynonym@en SPLIT=|	AL oboInOwl:hasExactSynonym@it SPLIT=|	AL oboInOwl:hasExactSynonym@fr SPLIT=|	A rdfs:seeAlso SPLIT=|		AL rdfs:comment@en	A IAO:0000117 SPLIT=|	TYPE	AI IAO:0000114	
+ID	SC % SPLIT=|	AL rdfs:label@en	AL IAO:0000115@en	A IAO:0000119 SPLIT=|	AL IAO:0000112@en SPLIT=|	C eats some % SPLIT=|	C not (eats some %) SPLIT=|	AL oboInOwl:hasExactSynonym@en SPLIT=|	AL oboInOwl:hasExactSynonym@it SPLIT=|	AL oboInOwl:hasExactSynonym@fr SPLIT=|	A rdfs:seeAlso SPLIT=|	A oboInOwl:hasDbXref	AL rdfs:comment@en	A IAO:0000117 SPLIT=|	TYPE	AI IAO:0000114	
 BFO:0000040		material entity															
 UBERON:0000463	material entity	organism substance	Material anatomical entity in a gaseous, liquid, semisolid or solid state; produced by anatomical structures or derived from inhaled and ingested substances that have been modified by anatomical structures as they pass through the body.											http://orcid.org/0000-0001-9114-8737			
 UBERON:0012112	organism substance	ingested food	A substance that is consumed by the organism for food.														
@@ -41,11 +41,11 @@ TERM:0010	  diet by consumer organism	    omnivorous diet	The diet of an omivore
 TERM:0011	  diet by consumer organism	    herbivorous diet	A diet of a herbivore, which focuses almost exclusively on the consumption of plants, fungi and/or lichen.														
 TERM:0012	dietary pattern	  diet by type of food															
 TERM:0013	  diet by type of food	    diet by food organism	A diet defined by the food source organisms it allows or excludes.														
-TERM:0014	    diet by food organism	      vegetarian diet	A diet which focuses almost exclusively on the consumption of plants, fungi and/or lichen.									gs1:DietTypeCode-VEGETARIAN					
+TERM:0014	    diet by food organism	      vegetarian diet	A diet which focuses almost exclusively on the consumption of plants, fungi and/or lichen.									https://www.gs1.org/voc/DietTypeCode-VEGETARIAN					
 TERM:0015	    diet by food organism	      pescetarian diet	A diet which includes vegetarian food as well as fish and seafood.														
-TERM:0016	    diet by food organism	      vegan diet										gs1:DietTypeCode-VEGAN					
-TERM:0017	    diet by food organism	      non-beef diet	A diet that excludes food containing beef food products.									gs1:DietTypeCode-WITHOUT_BEEF					
-TERM:0018	    diet by food organism	      non-pork diet 	A diet that excludes food containing swine food products.				swine food product					gs1:DietTypeCode-WITHOUT_PORK					
+TERM:0016	    diet by food organism	      vegan diet										https://www.gs1.org/voc/DietTypeCode-VEGAN					
+TERM:0017	    diet by food organism	      non-beef diet	A diet that excludes food containing beef food products.									https://www.gs1.org/voc/DietTypeCode-WITHOUT_BEEF					
+TERM:0018	    diet by food organism	      non-pork diet 	A diet that excludes food containing swine food products.				swine food product					https://www.gs1.org/voc/DietTypeCode-WITHOUT_PORK					
 TERM:0019	    diet by food organism	      infant breast milk diet	A diet consisting entirely of breast milk.														
 TERM:0020	    diet by food organism	      formula milk diet															
 TERM:0021	    diet by food organism	      lacto-vegetarian diet															
@@ -54,7 +54,7 @@ TERM:0023	    diet by food organism	      lacto-ovo vegetarian diet
 TERM:0024	    diet by food organism	      semi-vegetarian diet	primarily a plant-based diet but includes meat, dairy, eggs, poultry and fish on occasion or in small quantities					flexitarian diet									
 TERM:0025	  diet by type of food	    texture modified diet															
 TERM:0026	dietary pattern	  diet by agriculture treatment	A diet which involves food produced under certain agricultural conditions.														
-TERM:0027	  diet by agriculture treatment	    organic diet	A diet consisting of organically produced food									gs1:DietTypeCode-ORGANIC					
+TERM:0027	  diet by agriculture treatment	    organic diet	A diet consisting of organically produced food									https://www.gs1.org/voc/DietTypeCode-ORGANIC					
 TERM:0028	dietary pattern	  diet by nutritional composition	A diet defined by nutritional or other food bioactive compound presence or absense.														
 TERM:0029	  diet by nutritional composition	    ketogenic diet	"The ketogenic diet is a high-fat, low-carbohydrate, adequate-protein diet that mimics a fasting state, resulting in the substitution of ketone bodies as a source of energy. The ketogenic diet can be used to reduce recurrent epileptic seizures in individuals with intractable epilepsy. Intractable epilepsy is defined as epilepsy that failed to respond to three or more antiepileptic drugs.
 A high-fat, adequate-protein, low-carbohydrate diet. It is primarily used in medicine to treat difficult-to-control epilepsy in children"	PMID:23419562, PMID:27759811, PMID:28701250				Modified Atkins diet						Leigh Carmody			(replaces EFO:0009371)
@@ -64,7 +64,7 @@ TERM:0032	  diet by nutritional composition	    high-carbohydrate diet	A diet wh
 TERM:0033	  diet by nutritional composition	    low-carbohydrate, high-protien, high fat diet	???	PMID:18635428				Low carbohydrate diet						Leigh Carmody			The low-carbohydrate, non–restricted-calorie diet aimed to provide 20 g of carbohydrates per day for the 2-month induction phase and immediately after religious holidays, with a gradual increase to a maximum of 120 g per day to maintain the weight loss.
 TERM:0034	  diet by nutritional composition	    high fat diet	A diet involving the a larger proportion of fat than normal.														(replaces EFO high fat diet)
 TERM:0035	  diet by nutritional composition	    low fat diet	A restricted-energy diet with less than 30 % of energy from fat.	PMID:23651522										Leigh Carmody			(replaces EFO low fat diet)
-TERM:0036	  diet by nutritional composition	    glutten free	A diet which minimises or eliminates the consumption of glutten.									gs1:DietTypeCode-FREE_FROM_GLUTEN					
+TERM:0036	  diet by nutritional composition	    glutten free	A diet which minimises or eliminates the consumption of glutten.									https://www.gs1.org/voc/DietTypeCode-FREE_FROM_GLUTEN					
 TERM:0037	dietary pattern	  proscribed diet	An eating pattern that excludes a given diet.														
 TERM:0038	  dietary pattern	  prescribed diet	A diet assigned as a dietary pattern objective to an individual or group.														
 TERM:0039	"  dietary pattern|
@@ -76,14 +76,14 @@ TERM:0042	    research prescribed diet	"       study null nutritional diet
 "	"A dietairy pattern adhered to by a study control group.
 (possibly a placebo)."					null nutritional diet									
 ONS:0000082	  prescribed diet	    medically prescribed diet	ONS: Prescribed Diet A diet prescribed by a physician or nutritionist to meet specific nutritional needs of a person. ~= dietetic diet?					diet therapy | clinical treatment protocol									
-TERM:0043	    medically prescribed diet	      dietetic diet	A diet that is specially prepared or processed for an individual on restrictive diets.  RESERVE THIS TERM JUST FOR HUMANS?									gs1:DietTypeCode-DIETETIC					
-TERM:0044	    medically prescribed diet	      coeliac diet	A diet designed to reduce the symptoms of Coeliac disease which is caused by a reaction to gliadin (a gluten protein found in wheat) and similar proteins found in other crops.									gs1:DietTypeCode-COELIAC					
+TERM:0043	    medically prescribed diet	      dietetic diet	A diet that is specially prepared or processed for an individual on restrictive diets.  RESERVE THIS TERM JUST FOR HUMANS?									https://www.gs1.org/voc/DietTypeCode-DIETETIC					
+TERM:0044	    medically prescribed diet	      coeliac diet	A diet designed to reduce the symptoms of Coeliac disease which is caused by a reaction to gliadin (a gluten protein found in wheat) and similar proteins found in other crops.									https://www.gs1.org/voc/DietTypeCode-COELIAC					
 	    medically prescribed diet	      FODMAP diet	A diet involving the avoidance of Fermentable Oligo-Di-Monosaccharides and Polyols.	https://en.wikipedia.org/wiki/FODMAP													
 	  prescribed diet	    weight loss diet 	A diet designed to reduce the presence of fat in an organism.														
 TERM:0045	  prescribed diet	    performance diet  	A diet which has an athletic performance objective														
 TERM:0046	  prescribed diet	    ethnographic diet	A cultural or religious eating pattern.														
-TERM:0047	    ethnographic diet	    halal diet	A diet consisting of halal approved food.									gs1:DietTypeCode-HALAL					
-TERM:0048	    ethnographic diet	    kosher diet	A diet consisting of kosher approved food.									gs1:DietTypeCode-KOSHER					
+TERM:0047	    ethnographic diet	    halal diet	A diet consisting of halal approved food.									https://www.gs1.org/voc/DietTypeCode-HALAL					
+TERM:0048	    ethnographic diet	    kosher diet	A diet consisting of kosher approved food.									https://www.gs1.org/voc/DietTypeCode-KOSHER					
 TERM:0049	dietary pattern	  descriptive diet															
 TERM:0050	  descriptive diet	    self-reported diet	An ingested food data set which is subjectively recorded or recalled by an individual consuming the food					diet record			https://doi.org/10.1093/ajcn/63.4.491						
 TERM:0051	  descriptive diet	    objectively-reported diet	An ingested food data set which is observed by a researcher to have been consumed by a subject organism or population of organisms.														
