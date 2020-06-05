@@ -28,3 +28,6 @@ FoodOn is a member of the Open Biological and Biomedical Ontology Foundry (OBOFo
 CDNO: Crop Nutritional Data Ontology (possible upcoming participant)
  
 MeatyL@b: Food production ontology process modelling - does this have an associated ontology?
+
+## [ONE](https://github.com/cyang0128/Nutritional-epidemiologic-ontologies): Ontology for Nutritional Epidemiology
+Nutritional epidemiology is a specific research area. The generic ontologies for food science, nutrition science or medical science failed to cover the specific characteristics of nutritional epidemiologic studies. As a result, we developed the ontology for nutritional epidemiology (ONE) in order to describe nutritional epidemiologic studies accurately.
