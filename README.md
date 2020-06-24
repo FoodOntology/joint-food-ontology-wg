@@ -31,3 +31,9 @@ MeatyL@b: Food production ontology process modelling - does this have an associa
 
 ## [ONE](https://github.com/cyang0128/Nutritional-epidemiologic-ontologies): Ontology for Nutritional Epidemiology
 Nutritional epidemiology is a specific research area. The generic ontologies for food science, nutrition science or medical science failed to cover the specific characteristics of nutritional epidemiologic studies. As a result, we developed the ontology for nutritional epidemiology (ONE) in order to describe nutritional epidemiologic studies accurately.
+
+## [MAxO](https://github.com/monarch-initiative/MAxO): Medical Actions Ontology
+The Medical Actions Ontology (MAxO) is a developing ontology that provides a structured vocabulary for medical procedures, interventions, therapies, and treatments, including nutrition based medical interventions. 
+
+## [ECTO](https://github.com/EnvironmentOntology/environmental-exposure-ontology): Environmental Conditions, Treatments, and Exposures Ontology
+The Environmental Conditions, Treatments, and Exposures Ontology is a developing ontology that utilizes existing OBO ontologies such as ExO, CHEBI and ENVO to make ready-made precomposed classes for use in describing experimental treatments of plants and model organisms, exposures of humans or any other organisms to stressors through a variety of routes, stimuli, any kind of environmental condition or change in condition that can be experienced by an organism or population of organisms on earth. ECTO includes terms to represent exposure to specific foods, diets, or nutrients. 
