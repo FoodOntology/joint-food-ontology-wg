@@ -5,6 +5,8 @@ List the name, URL and scope description of your food related ontology here.
 
 ## [FOBI](https://github.com/pcastellanoescuder/FoodBiomarkerOntology): Food-Biomarker Ontology
 
+[(paper)](https://academic.oup.com/database/article/doi/10.1093/databa/baaa033/5857401)  
+
 FOBI is an ontology composed of two interconnected sub-ontologies. One is the ”Food Ontology” (with many adopted terms from FoodOn) consisting of raw foods and multi-component foods while the second is the ”Biomarker Ontology” containing food intake biomarkers classified by their chemical classes (with some terms adopted from ChEBI). These two sub-ontologies are conceptually independent but interconnected by different properties. This allows data and information regarding foods and food biomarkers to be visualized in a bidirectional way, going from metabolomics to nutritional data or vice versa. 
 
 FOBI is a member of the Open Biological and Biomedical Ontology Foundry (OBOFoundry), and consequently reuses some ChEBI, UBERON and FoodOn terms.
