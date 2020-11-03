@@ -11,4 +11,6 @@
 
 ### 2020 ICBO IFOW Workshop
 
-* Author presentation slide decks and abstracts will be uploaded soon!
+* Author presentation slide decks and abstracts have been uploaded above.
+* Session Questions are in [2020 IFOW Session Notes And Questions](https://docs.google.com/document/d/1mCoPYGGl5m0VP5a-0fiMSRXRUL05zzsG2f6FCAso7-Y)
+* Session video will be uploaded shortly, and linked from here.
