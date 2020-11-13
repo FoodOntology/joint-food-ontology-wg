@@ -36,7 +36,7 @@ Nutritional epidemiology is a specific research area. The generic ontologies for
 
 The ONE reuses classes from 22 existing ontologies. The main referred ontologies are NCIT (National Cancer Institute Thesaurus) and MeSH (Medical Subject Headings).The present work is an extension of the Ontology for Nutritional Studies (ONS) that was developed as a comprehensive ontology to describe research in a broader human nutrition domain. The present work adds value to FoodOn, which formulates descriptions of nutrients, food items and diets. 
 
-The ONE is being registered with the OBO Foundry.
+The ONE is a member of the Open Biological and Biomedical Ontology Foundry (OBOFoundry), the Ontology Lookup Service (OLS) and the BioPortal.
 
 ## [MAxO](https://github.com/monarch-initiative/MAxO): Medical Actions Ontology
 The Medical Actions Ontology (MAxO) is a developing ontology that provides a structured vocabulary for medical procedures, interventions, therapies, and treatments, including nutrition based medical interventions. 
