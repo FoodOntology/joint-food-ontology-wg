@@ -34,7 +34,7 @@ MeatyL@b: Food production ontology process modelling - does this have an associa
 ## [ONE](https://github.com/cyang0128/Nutritional-epidemiologic-ontologies): Ontology for Nutritional Epidemiology
 Nutritional epidemiology is a specific research area. The generic ontologies for food science, nutrition science or medical science failed to cover the specific characteristics of nutritional epidemiologic studies. As a result, we developed the ontology for nutritional epidemiology (ONE) in order to describe nutritional epidemiologic studies accurately.
 
-The ONE reuses classes from 22 existing ontologies. The main referred ontologies are NCIT (National Cancer Institute Thesaurus) and MeSH (Medical Subject Headings).The present work is an extension of the Ontology for Nutritional Studies (ONS) that was developed as a comprehensive ontology to describe research in a broader human nutrition domain. The present work adds value to FoodOn, which formulates descriptions of nutrients, food items and diets. 
+The present work is an extension of the Ontology for Nutritional Studies (ONS) that was developed as a comprehensive ontology to describe research in a broader human nutrition domain. The present work adds value to FoodOn, which formulates descriptions of nutrients, food items and diets. 
 
 The ONE is a member of the Open Biological and Biomedical Ontology Foundry (OBOFoundry), the Ontology Lookup Service (OLS) and the BioPortal.
 
