@@ -27,7 +27,7 @@ FoodOn is a member of the Open Biological and Biomedical Ontology Foundry (OBOFo
 ## AHSO: Animal Health Surveillance Ontology 
 (<a href="https://www.researchgate.net/project/AHSO-Animal-Health-Surveillance-Ontology">paper</a>)
  
-CDNO: Crop Nutritional Data Ontology (possible upcoming participant)
+## CDNO: Crop Nutritional Data Ontology
  
 MeatyL@b: Food production ontology process modelling - does this have an associated ontology?
 
