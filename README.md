@@ -1,7 +1,7 @@
 # joint-food-ontology-wg
-This is a repository for documents and issues related to the development of interoperable food related ontologies.  Currently curators from FoodOn, the Food Biomarker Ontology (FOBI), the Ontology for Nutritional Studies (ONS), Medical Action Ontology (MAxO) and the Environmental Conditions, and the Treatments and Exposures ontology (ECTO) are involved.
+The **Joint Food Ontology Workgroup (JFOW)** is an informal group of ontology stakeholders involved in harmonizing the content of their respective food product and research related ontologies. Our work together aims to simplify the annotation of datasets to meet interoperable FAIR data standards, as well as to pave the way to a future of federated, plug-and-play, queryable knowledge graphs.  We are ensuring that our ontologies live up to the MIREOT principle, namely that they offer and reuse terms which are curated in the most appropriate domain-specific ontology, covering domains such as dietary study design, nutrition, food products, and food biomarkers.  The repository and issues board here are related to the group's work, which is loosely coordinated in monthly videoconferences.  Currently curators from FoodOn, the Food Biomarker Ontology (FOBI), the Ontology for Nutritional Studies (ONS), Medical Action Ontology (MAxO) and the Environmental Conditions, and the Treatments and Exposures ontology (ECTO) are involved, as well as agencies who are developing in-house ontology vocabulary reuse capability.  Many but not all of our members are involved in the OBOFoundry.org curation collective.
 
-List the name, URL and scope description of your food related ontology here. 
+Research and development projects involved in the group are listed below.
 
 ## [FOBI](https://github.com/pcastellanoescuder/FoodBiomarkerOntology): Food-Biomarker Ontology
 
