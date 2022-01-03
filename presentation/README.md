@@ -1,9 +1,8 @@
 ## Presentations
 
 ### 2020 Monthly calls
-* 
-* December 22 Joint Food Ontology Workgroup Call [Food Process Ontology paper, Wine Ontology project, Matthew Lange ICICLE Introduction](https://youtu.be/ti3y5MhVViA)
 
+* December 22 Joint Food Ontology Workgroup Call [Food Process Ontology paper, Wine Ontology project, Matthew Lange ICICLE Introduction](https://youtu.be/ti3y5MhVViA)
 * August 26: [Slides](https://github.com/FoodOntology/joint-food-ontology-wg/blob/master/presentation/IFOW_2020_call_Chatterjee.ppt?raw=true): Usashi Chatterjee: Recipe Domain Ontology Modelling
 * July 22:  [Video](https://foodon.org/ifow/call_2020_july_22.mp4): Chen Yang: Ontology for Nutritional Epidemiology (ONE, 31 min); Liliana Andres Hernandez: Crop Dietary Nutrition Ontology (CDNO, 13 min)
 * June 30:  [Video](https://youtu.be/_PK179-EE-0): Andrea Borghini, Associate Professor, Department of Philosophy, University of Milan, will introduce current and future analytic food visioning work; Babak Ravandi presenting processed food categorization and nutritional analysis [Preprint](https://www.medrxiv.org/content/10.1101/2021.05.22.21257615v1)
