@@ -19,10 +19,13 @@
 
 And more at [YouTube](https://www.youtube.com/playlist?list=PLxlyllO6tRCkx5bbF8v2pydPKwP_eQJSS)
 
-### 2020 ICBO IFOW Workshop
+### 2020 BOSK ICBO IFOW Workshop (Bolzano, virtual)
 
 * Author presentation slide decks and abstracts have been uploaded above.
 * Session Questions are in [2020 IFOW Session Notes And Questions](https://docs.google.com/document/d/1mCoPYGGl5m0VP5a-0fiMSRXRUL05zzsG2f6FCAso7-Y)
 * Videos of the four sessions are available on YouTube at: https://www.youtube.com/playlist?list=PLhzFEi0G-n-vDmqvPLBinMsoATgyPAzLk
 
-### 2021 ICBO IFOW Workshop Coming Soon!
+### 2021 BOSK ICBO IFOW Workshop (Bolzano, hybrid)
+
+* Author conference proceeding papers have been uploaded above.
+* Videos of Saturday Sept 18th sessions: [https://summerofknowledge.inf.unibz.it/ifow-2021-video-presentations/](https://summerofknowledge.inf.unibz.it/ifow-2021-video-presentations/)
