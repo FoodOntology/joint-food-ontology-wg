@@ -6,10 +6,10 @@
 
 * August 26: [Slides](https://github.com/FoodOntology/joint-food-ontology-wg/blob/master/presentation/IFOW_2020_call_Chatterjee.ppt?raw=true): Usashi Chatterjee: Recipe Domain Ontology Modelling
 * July 22:  [Video](https://foodon.org/ifow/call_2020_july_22.mp4): Chen Yang: Ontology for Nutritional Epidemiology (ONE, 31 min); Liliana Andres Hernandez: Crop Dietary Nutrition Ontology (CDNO, 13 min)
-* June 30:  [Video](https://youtu.be/_PK179-EE-0): Andrea Borghini, Associate Professor, Department of Philosophy, University of Milan, will introduce current and future analytic food visioning work; Babak Ravandi presenting preview of processed food categorization and nutritional analysis ()
+* June 30:  [Video](https://youtu.be/_PK179-EE-0): Andrea Borghini, Associate Professor, Department of Philosophy, University of Milan, will introduce current and future analytic food visioning work; Babak Ravandi presenting processed food categorization and nutritional analysis [Preprint](https://www.medrxiv.org/content/10.1101/2021.05.22.21257615v1)
 * June 24:  [Slides](https://github.com/FoodOntology/joint-food-ontology-wg/blob/master/presentation/IFOW_2020_FIDEO.pdf): Georgeta Bordea: Food-Drug Interaction Evidence Ontology (FIDEO)
 * May 26: [Video](https://youtu.be/5FdgOyV-xrU): Chen Yang presentation on Ontology of Nutritional Epidemiology (ONE); Fermentation process details, including the Ontology of Nutritional Studies (ONS).
-* May 12:   [Video](https://youtu.be/mzkUQngB8hI)
+* May 12:   [Video](https://youtu.be/mzkUQngB8hI): Babak Ravandi presenting Machine Learning Prediction of Food Processing to FoodOn curation group.
 * April 29: [Video](https://foodon.org/ifow/fobi_2020_apr_29.mov): Pol Castellano: Food-Biomarker Ontology (FOBI) 
 * April 14: [Video](https://youtu.be/85zivQIXarU): EXACT2 EXperimental ACTions ontology and PO2 Process Ontology, and a rough process ontology of pureed carrots.  As well a detailed RDF view by Robert Warren of boiling & hops as part of the beermaking process.
 * April 7: [Video](https://youtu.be/XEsdS3yUyIE): How to query the FoodOn owl ontology file using the robot sparql command (http://robot.obolibrary.org/query) in order to get term labels and synonyms.
