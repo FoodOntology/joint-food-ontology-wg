@@ -17,7 +17,10 @@ As such, it includes and covers classes and relations that are commonly encounte
 
 ONS is member of the Open Biological and Biomedical Ontology Foundry (OBOFoundry), reuses BFO, OBI, FoodOn, ChEBi, and other ontologies terms. 
 
-## FIDEO: Food Interactions with Drugs Evidence Ontology
+## [FIDEO](https://gitub.u-bordeaux.fr/erias/fideo): Food Interactions with Drugs Evidence Ontology
+FIDEO, launched in 2019 as part of the ANR-funded MIAM project, aims to represent knowledge about food-drug interactions. It reuses concepts from referenced ontologies such as BFO, OBI, ChEBI, DRON and FoodOn and includes additional concepts describing the interactions and the food and drugs involved as well as evidence about them. 
+
+FIDEO is a member of the Open Biological and Biomedical Ontology Foundry (OBOFoundry) and is available on Ontology Lookup Service (OLS) and BioPortal.
 
 ## [FoodOn](https://foodon.org): Food ontology
 FoodOn, launched in 2018, is a recently developed ontology that aims to describe food known in cultures throughout the world for human, domestic and agricultural animal consumption. FoodOn is based on the LanguaL™ Food Description Thesaurus, originating in the late 1970s as the “Factored Food Vocabulary” by the Center for Food Safety and Applied Nutrition (CFSAN) of the United States Food and Drug Administration, and later adopted by the European LanguaL™ Technical Committee which supports EuroFIR partner national food nutrition databases. All of LanguaL™’s 14 facets of food description have been transformed and mapped into FoodOn ontology branches of vocabulary.
