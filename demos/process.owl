@@ -1,0 +1,398 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/process.owl#"
+     xml:base="http://purl.obolibrary.org/process.owl"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/process.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000015 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000015">
+        <rdfs:label xml:lang="en">process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DEMO_0000001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMO_0000001">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
+        <obo:IAO_0000115 xml:lang="en">A planned process which has one or more action specification parts in its plan specification that control a mechanism.</obo:IAO_0000115>
+        <rdfs:comment xml:lang="en">A convenience class for organizing processes by their physical mechanism or digital algorithm. An action may be physical, like pushing a button or setting a dial, or may be about running some software.</rdfs:comment>
+        <rdfs:label xml:lang="en">process by mechanism</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DEMO_0000002 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMO_0000002">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
+        <obo:IAO_0000115 xml:lang="en">Material processing which has one or more action specifications in its plan specification.</obo:IAO_0000115>
+        <rdfs:comment xml:lang="en">A plan specification may manipulate parameters [variables / dimensions] to create an environment in flux that transforms/changes/affects the materials</rdfs:comment>
+        <rdfs:label xml:lang="en">material processing by mechanism</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DEMO_0000003 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMO_0000003">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DEMO_0000002"/>
+        <obo:IAO_0000115 xml:lang="en">An energy modulation in which thermal energy (heat) is applied to or removed from a material or its environment.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">thermal energy modulation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DEMO_0000004 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMO_0000004">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DEMO_0000003"/>
+        <obo:IAO_0000115 xml:lang="en">An energy modulation in which thermal energy (heat) is applied to a material or its environment.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">heating of material</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DEMO_0000005 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMO_0000005">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DEMO_0000003"/>
+        <obo:IAO_0000115 xml:lang="en">An energy modulation in which thermal energy (heat) is removed from a material or its environment.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">cooling of material</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DEMO_0000006 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMO_0000006">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DEMO_0000002"/>
+        <obo:IAO_0000115 xml:lang="en">A material processing by mechanism in which force is applied to or removed from a material or its environment.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">force modulation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DEMO_0000007 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMO_0000007">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DEMO_0000002"/>
+        <obo:IAO_0000115 xml:lang="en">A material processing by mechanism in which materials are separated.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">separating material</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DEMO_0000008 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMO_0000008">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DEMO_0000002"/>
+        <obo:IAO_0000115 xml:lang="en">A material processing by mechanism in which materials are combined.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">combining material</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DEMO_0000009 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMO_0000009">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DEMO_0000002"/>
+        <obo:IAO_0000115 xml:lang="en">????</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">molecular mechanism</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DEMO_0000010 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMO_0000010">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DEMO_0000009"/>
+        <obo:IAO_0000115 xml:lang="en">A molecular mechanism categorized by its reaction type.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">molecular mechanism by reaction type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DEMO_0000011 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMO_0000011">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DEMO_0000010"/>
+        <obo:IAO_0000115 xml:lang="en">A molecular mechanism by reaction type involving a covalent reaction.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">covalent reaction</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DEMO_0000012 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMO_0000012">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DEMO_0000010"/>
+        <obo:IAO_0000115 xml:lang="en">A molecular mechanism by reaction type involving a non-covalent reaction.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">non-covalent reaction</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DEMO_0000013 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMO_0000013">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DEMO_0000009"/>
+        <obo:IAO_0000115 xml:lang="en">A molecular mechanism categorized by the region in which reactions are taking place.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">molecular mechanism by spatial location</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DEMO_0000014 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMO_0000014">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DEMO_0000013"/>
+        <obo:IAO_0000115 xml:lang="en">A molecular mechanism where reactions are occurring at some surface boundary.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">surface mechanism</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DEMO_0000015 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMO_0000015">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DEMO_0000013"/>
+        <obo:IAO_0000115 xml:lang="en">A molecular mechanism where reactions are occurring throughout a mixture.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">bulk molecular mechanism</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DEMO_0000016 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMO_0000016">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
+        <obo:IAO_0000115 xml:lang="en">A planned process which has one or more objective specification parts in its plan specification.</obo:IAO_0000115>
+        <rdfs:comment xml:lang="en">Implicitly this process must have a part which can sense when its one or more objectives are complete, so that it can halt. Process objectives might be classed as primary, secondary or tertiary but that may be relative to the needs of a supply chain.</rdfs:comment>
+        <rdfs:label xml:lang="en">process by objective</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DEMO_0000017 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMO_0000017">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000094"/>
+        <obo:IAO_0000115 xml:lang="en">Material processing which has one or more objective specification parts in its plan specification.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">material processing by objective</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DEMO_0000018 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMO_0000018">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DEMO_0000017"/>
+        <rdfs:label xml:lang="en">food processing by objective</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DEMO_0000019 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMO_0000019">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DEMO_0000018"/>
+        <rdfs:label xml:lang="en">food processing by sensory objective</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DEMO_0000020 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMO_0000020">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DEMO_0000018"/>
+        <rdfs:label xml:lang="en">food processing by health objective</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DEMO_0000021 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMO_0000021">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DEMO_0000020"/>
+        <rdfs:label xml:lang="en">food microorganism control process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DEMO_0000022 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMO_0000022">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DEMO_0000021"/>
+        <rdfs:label xml:lang="en">food microorganism killing</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DEMO_0000023 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMO_0000023">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DEMO_0000021"/>
+        <rdfs:label xml:lang="en">food microorganism growth retardation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DEMO_0000024 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMO_0000024">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DEMO_0000021"/>
+        <rdfs:label xml:lang="en">food microorganism removal</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DEMO_0000025 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMO_0000025">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DEMO_0000020"/>
+        <rdfs:label xml:lang="en">food component reduction</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DEMO_0000026 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMO_0000026">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DEMO_0000020"/>
+        <rdfs:label xml:lang="en">food fortification (component addition)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DEMO_0000027 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMO_0000027">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DEMO_0000017"/>
+        <rdfs:label xml:lang="en">fractionation by objective</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DEMO_0000028 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMO_0000028">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DEMO_0000027"/>
+        <rdfs:label xml:lang="en">fractionation by chemical structure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DEMO_0000029 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMO_0000029">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DEMO_0000027"/>
+        <rdfs:label xml:lang="en">fractionation along anatomical boundary</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DEMO_0000030 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMO_0000030">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DEMO_0000027"/>
+        <rdfs:label xml:lang="en">fractionation by form objective</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DEMO_0000031 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMO_0000031">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DEMO_0000017"/>
+        <rdfs:label xml:lang="en">homogenization</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DEMO_0000032 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMO_0000032">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DEMO_0000017"/>
+        <rdfs:label xml:lang="en">material processing by temperature objective</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DEMO_0000033 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMO_0000033">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DEMO_0000032"/>
+        <rdfs:label xml:lang="en">material processing by cooling threshold</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DEMO_0000034 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DEMO_0000034">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DEMO_0000032"/>
+        <rdfs:label xml:lang="en">material processing by heating threshold</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000011 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000011">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <obo:IAO_0000115 xml:lang="en">A process that realizes a plan which is the concretization of a plan specification.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">planned process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000094 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000094">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
+        <obo:IAO_0000115 xml:lang="en">A planned process which results in physical changes in a specified input material</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">material processing</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.25) https://github.com/owlcs/owlapi -->
+
